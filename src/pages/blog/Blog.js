@@ -40,9 +40,6 @@ function Blog() {
                     <button className='rounded-full w-24 h-14 text-lg bg-white shadow-lg border border-gray-300'>Next</button>
                 </div>
             </div>
-
-            <Footer />
-
         </div>
     )
 }

@@ -14,10 +14,9 @@ import pin from "../../assets/svg-icon/pin.svg";
 import map from "../../assets/map.webp";
 import Footer from "../../component/footer/Footer";
 
-function ContactUs() {
+function Contact() {
   return (
     <div>
-      {/* <Header /> */}
       <div className=" pb-20">
         <MainComponent img={img}>
           <div className="text-center mx-6 lg:text-start lg:ml-20">
@@ -64,15 +63,15 @@ function ContactUs() {
             <div className="h-96 mx-4 flex items-center justify-center " style={{ backgroundImage: `url(${map})` }}>
               <div className="w-full max-w-xs bg-white rounded-2xl pt-12 pb-[3.25rem] mx-2 px-4">
                 <div className=" flex gap-4 ">
-                  <img src={pin} alt="" />
+                  <img src={pin} alt="pin" />
                   <p>13 Sawyer Crescent Victoria Island Lagos Nigeria</p>
                 </div>
                 <div className=" flex gap-4 my-[0.85rem] ">
-                  <img src={call} alt="" />
+                  <img src={call} alt="call" />
                   <p>(+234) 137632128 </p>
                 </div>
                 <div className=" flex gap-4 ">
-                  <img src={mail} alt="" />
+                  <img src={mail} alt="mail" />
                   <p>support@coinbase.com</p>
                 </div>
               </div>
@@ -80,9 +79,8 @@ function ContactUs() {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 }
 
-export default ContactUs;
+export default Contact;

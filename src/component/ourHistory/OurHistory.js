@@ -2,9 +2,9 @@ import React from 'react'
 import tree from '../../assets/tree.webp'
 
 function OurHistory() {
-  return (
-    <div>
-        <div className="">
+    return (
+        <div>
+            <div className="">
                 <h1 className="font-poppins font-bold text-3xl bg-gradient-to-b from-[#D664A4] to-[#B856A9]
            text-transparent bg-clip-text text-center">Our history</h1>
                 <div className='flex justify-center mb-9 '>
@@ -39,8 +39,8 @@ function OurHistory() {
                 </div>
                 <p className='text-center pt-4' >To be continue…</p>
             </div>
-    </div>
-  )
+        </div>
+    )
 }
 
 export default OurHistory

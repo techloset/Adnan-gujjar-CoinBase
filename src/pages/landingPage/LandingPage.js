@@ -7,6 +7,10 @@ import Header from "../../component/header/Header";
 import CoinBase from "../../component/coinBase/CoinBase";
 import Experience from "../../component/experience/Experience";
 import States from "../../component/states/States";
+import Client from "../../component/client/Client";
+import OurApp from "../../component/ourApp/OurApp";
+import Blog from "../../component/blog/Blog";
+import Trad from "../../component/trad/Trad";
 
 function LandingPage() {
   return (
@@ -28,9 +32,13 @@ function LandingPage() {
           </div>
         </div>
       </MainComponent>
-      <CoinBase/>
-      <States/>
-      <Experience/>
+      <CoinBase />
+      <States />
+      <Experience />
+      <Trad />
+      <Blog />
+      <Client />
+      <OurApp />
     </div>
   );
 }

@@ -7,6 +7,8 @@ import { ReactComponent as Customer } from '../../assets/svg-icon/customer.svg'
 import { ReactComponent as Quality } from '../../assets/svg-icon/Quality.svg'
 import { ReactComponent as Medal } from '../../assets/svg-icon/medal.svg'
 import OurHistory from '../../component/ourHistory/OurHistory'
+import Meet from '../../component/meet/Meet'
+import Footer from '../../component/footer/Footer'
 
 
 function About() {
@@ -63,7 +65,9 @@ function About() {
                     </div>
                 </div>
             </div>
-            <OurHistory/>
+            <OurHistory />
+            <Meet />
+            <Footer/>
         </div>
     )
 }
