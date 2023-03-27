@@ -8,7 +8,8 @@ function BlogCard({ data }) {
             <img src={data?.img} alt=' image not found' />
             <div className='rounded-lg border-red-600 border-x-[1px] border-b-[1px]  mb-[3.75rem] px-4 '>
                 <div className='w-full max-w-4xl mx-auto pt-[3.75rem] pb-10 '>
-                    <h1 className='font-poppins font-bold text-center  text-[2rem] mt-4 mb-7 '>{data?.title}</h1>
+                    <h1 className='font-poppins font-bold text-center  text-[2rem] mt-4 mb-7 bg-gradient-to-b from-[#C35B95] to-[#B254AB]
+                          text-transparent bg-clip-text '>{data?.title}</h1>
                     <div className='flex flex-row justify-center items-center sm:gap-3'>
                         <span className='font-normal font-poppins text-[0.7rem]'>19 JUNE, 2019 </span> <span className='font-normal font-poppins text-[0.7rem] border-l px-2'>{data?.business}</span>
                     </div>

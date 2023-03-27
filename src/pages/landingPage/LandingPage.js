@@ -28,7 +28,8 @@ function LandingPage() {
             best rate, why not give us a trial.
           </p>
           <div className="flex  justify-center lg:justify-start mb-10 ">
-            <Button text="Get Started" />
+          <div className="px-8 py-4 bg-white rounded-full"><p>Get Started</p></div>
+            
           </div>
         </div>
       </MainComponent>

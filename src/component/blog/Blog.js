@@ -9,8 +9,8 @@ function Blog() {
    text-transparent bg-clip-text">
                     Our blog
                 </h4>
-              <div className='flex justify-center'>
-                <div className='w-10 h-1 rounded-md bg-red-500'></div>
+              <div className='flex justify-center mt-[1.10rem]'>
+                <div className='w-10 h-1 rounded-full bg-pink-500'></div>
               </div>
             </div>
 

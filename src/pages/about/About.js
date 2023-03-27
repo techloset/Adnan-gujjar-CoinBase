@@ -29,9 +29,13 @@ function About() {
                 </div>
             </MainComponent>
             <div>
-                <p className='font-poppins font-bold text-lg text-center'>“Morbi sagittis ultricies ex, a tempus lorem suscipit non. Donec semper leo ut lobortis condimentum. Orci varius natoque penatibus et magnis”</p>
-                <div className='flex justify-center items-center'>
-                    <div className='bg-gradient-to-b from-pink-500 via to-indigo-900 w-12 h-2 rounded-lg'>
+            <p className='bg-gradient-to-b w-full  max-w-lg mx-auto from-[#FD749B] to-[#281AC8] text-transparent 
+        bg-clip-text cursor-pointer font-bold text-lg text-center'
+        >
+          “Morbi sagittis ultricies ex, a tempus lorem suscipit non.
+          Donec semper leo ut lobortis condimentum. Orci varius natoque penatibus et magnis”</p>
+                <div className='flex justify-center items-center my-5 '>
+                    <div className='bg-pink-500 w-12 h-2 rounded-lg'>
                     </div>
                 </div>
                 <p className='font-poppins font-normal  text-sm text-center'>Ramon Ridwan • CEO CoinBase</p>
@@ -47,7 +51,7 @@ function About() {
                   bg-gradient-to-b from-[#C35B95] to-[#B254AB]
                    text-transparent bg-clip-text text-center">About CoinBase</h1>
                             <div className='flex justify-center mb-9 '>
-                                <div className='bg-gradient-to-b from-pink-500 via to-indigo-900 w-12 h-2 rounded-lg'>
+                                <div className='bg-pink-500 w-12 h-2 rounded-lg'>
                                 </div>
                             </div>
                             <p className="mb-9  text-base text-center leading-10">CoinBase is an online site and a p2admin platform that
@@ -67,7 +71,6 @@ function About() {
             </div>
             <OurHistory />
             <Meet />
-            <Footer/>
         </div>
     )
 }

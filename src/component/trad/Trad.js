@@ -16,7 +16,7 @@ function Trad() {
                         Trade from anywhere
                     </h4>
                 </div>
-                <div className='flex justify-center'><div className='w-10 h-1 bg-red-500'></div></div>
+                <div className='flex justify-center mt-[1.10rem]'><div className='w-10 h-1 bg-pink-500 rounded-full'></div></div>
                 <div className='sm:flex sm:flex-row sm:justify-center   sm:mt-16 sm:align-baseline gap-7 sm:gap-14 flex flex-col justify-center items-center mt-5'>
 
                     <div className='border-fuchsia-800 border  rounded-xl md:w-[262px] md:h-[226px]  sm:w-[160px] sm:h-[150px]    w-[140px] h-[100px] gap-1 flex flex-col justify-center text-center items-center sm:gap-8'>

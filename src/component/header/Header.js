@@ -17,9 +17,9 @@ function Header() {
     <div>
 
       <div className="flex justify-between items-center lg:px-24 px-6  h-20 ">
-        <div className=" flex items-end gap-2">
+        <div className=" flex items-end gap-2 cursor-pointer">
           <Logo />
-          <h1>CoinBase</h1>
+          <h1 >CoinBase</h1>
         </div>
         <div className="md:flex items-center w-[70%] justify-between gap-2 hidden">
           <ul className="flex list-none w-[50%] justify-between gap-2">
@@ -53,9 +53,7 @@ function Header() {
         <div onClick={toggleTabs} className='block md:hidden cursor-pointer' >
           <Menu />
         </div>
-
       </div>
-
       {showTabs ? (
         <div className="flex items-center w-full justify-center gap-0 md:hidden">
           <ul className="flex flex-col list-none gap-4">
