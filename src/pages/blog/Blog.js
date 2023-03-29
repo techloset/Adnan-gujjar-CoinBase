@@ -3,7 +3,6 @@ import MainComponent from '../../component/mainComponent/MainComponent'
 import image from '../../assets/image-2.webp'
 import { data } from '../../constant/Constant'
 import BlogCard from '../../component/blogCard/BlogCard'
-import Footer from '../../component/footer/Footer'
 
 function Blog() {
     console.log('data', data);

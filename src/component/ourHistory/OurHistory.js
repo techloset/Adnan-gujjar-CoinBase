@@ -1,17 +1,17 @@
 import React from 'react'
 import tree from '../../assets/tree.webp'
 
+
 function OurHistory() {
     return (
         <div>
-            <div className="">
-                <h1 className="font-poppins font-bold text-3xl bg-gradient-to-b from-[#D664A4] to-[#B856A9]
+            <div className=" pb-32">
+                <h1 className="font-poppins font-bold text-3xl leading-[4rem] bg-gradient-to-b from-[#D664A4] to-[#B856A9]
            text-transparent bg-clip-text text-center">Our history</h1>
                 <div className='flex justify-center mb-9 '>
-                    <div className='bg-gradient-to-b from-pink-500 via to-indigo-900 w-12 h-2 rounded-lg'>
+                    <div className='bg-pink-500 w-12 h-2 rounded-lg'>
                     </div>
                 </div>
-
                 <div className="flex flex-row justify-evenly items-center ">
                     <div className='flex flex-col w-[50%] sm:w-[34%] text-end gap-5 sm:gap-16 md:gap-56'>
                         <div className=" p-4 ">
@@ -37,7 +37,7 @@ function OurHistory() {
                             at vestibulum ex rutrum. Nulla facilisi. Cras ullamcorper pellentesque orci, nec vestibulum nibh.uspendisse</p>
                     </div>
                 </div>
-                <p className='text-center pt-4' >To be continue…</p>
+                <p className='text-center pt-4 font-poppins font-bold text-xs' >To be continue…</p>
             </div>
         </div>
     )

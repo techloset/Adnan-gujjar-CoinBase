@@ -64,7 +64,6 @@ function Header() {
                 <li>
                   <a href="#" className="block pl-4 py-3  font-normal text-sm text-[#FFFFFF] text-[12px] rounded-bl-lg rounded-br-lg  " style={{ background: 'linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%)' }}>Sell Giftcard</a>
                 </li>
-
               </ul>
             </div>
             <Button text="LOGIN" />
@@ -105,7 +104,6 @@ function Header() {
                   />
                 </svg>
               </button>
-              {/* </div> */}
               <div id="dropdownOffset" class={`z-10 mt-36 ml-36 border-[1px] border-[#E0E0E0] absolute  opacity-80 bg-white divide-y divide-gray-100 rounded-lg shadow w-36 dark:bg-white-700  ${open ? 'block' : 'hidden'}   `}>
                 <ul className=" text-sm  text-black dark:text-gray-200" aria-labelledby="dropdownDefault">
                   <li>
@@ -114,7 +112,6 @@ function Header() {
                   <li>
                     <a href="#" className="block pl-4 py-3  font-normal text-sm text-[#FFFFFF] text-[12px] rounded-bl-lg rounded-br-lg  " style={{ background: 'linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%)' }}>Sell Giftcard</a>
                   </li>
-
                 </ul>
               </div>
             </div></li>
@@ -123,7 +120,6 @@ function Header() {
         </div>
       )
         : null}
-
     </div>
   );
 }
