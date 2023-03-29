@@ -7,7 +7,6 @@ import Footer from '../../component/footer/Footer'
 
 function Blog() {
     console.log('data', data);
-
     return (
         <div className=''>
             <MainComponent img={image}>

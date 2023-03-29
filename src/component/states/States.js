@@ -1,6 +1,6 @@
 import React from "react";
 import shape from "../../assets/path-1.png";
-import shape2 from "../../assets/path-2.png";
+import shape2 from "../../assets/svg-icon/path.svg"
 import { ReactComponent as Eth } from '../../assets/svg-icon/eth.svg';
 import { ReactComponent as Building } from '../../assets/svg-icon/bank-building.svg';
 import { ReactComponent as Bitcoin } from '../../assets/svg-icon/bitcoin.svg';
@@ -14,96 +14,103 @@ import { ReactComponent as Transfer1 } from '../../assets/svg-icon/transfer-2.sv
 function States() {
   return (
     <>
-      <div className="bg-gradient-to-b  from-pink-500 via to-indigo-900 flex flex-col justify-center overflow-hidden">
+      <div className="bg-gradient-to-b  from-pink-500 via to-indigo-900 flex flex-col  justify-center overflow-hidden">
         <img className="-mt-9" src={shape} alt="shap" />
-        <div className="w-full max-w-5xl mx-auto mt-10 mb-[3.25rem] px-5">
-          <div className='shadow-xl scroll scroll rounded-[30px] overflow-y-auto pb-10  bg-white '>
-            <div className='flex justify-around border-b-2 items-center text-transparent  bg-gradient-to-b from-[#FD749B] to-[#B254AB] bg-clip-text'>
-              <p className='font-bold font-poppins text-lg leading-[3.75rem]'>OUR RATES</p>
-              <p className='font-bold font-poppins text-lg leading-[3.75rem]'>OUR RESERVES</p>
-              <p className='font-bold font-poppins text-lg leading-[3.75rem]'>LATEST EXCHANGES</p>
-            </div>
-            <div className='flex flex-col lg:flex-row justify-evenly gap-12 items-center  '>
-
-              <div className='flex flex-col'>
-                <div className='flex gap-7 mt-6' >
-                  <p className='flex items-center justify-center gap-3 h-fit'>
-                    <Bitcoin />
-                    BTC
-                  </p>
-                  <div>
-                    <p>We Buy @ <b>  ₦350/$ </b></p>
-                    <p className='pt-4'>We Sell <b>@ ₦370/$ </b></p>
-                  </div>
-                </div>
-                <div className='flex gap-7'>
-                  <p className='flex items-center justify-center gap-3'>
-                    <Eth />  ETH
-                  </p>
-                
-                  <div>
-                    <p>We Buy @ <b>  ₦350/$ </b></p>
-                    <p className='pt-4'>We Sell <b>@ ₦370/$ </b></p>
-                  </div>
-                </div>
+        <div className="mx-5">
+          <div className="w-full max-w-5xl mx-auto">
+            <div className='shadow-xl rounded-[30px] mt-36 mb-10 pb-14 bg-white '>
+              <div className='flex justify-around border-b-2 items-center h-[80px]  text-2xl font-bold leading-tight text-transparent  bg-gradient-to-b from-[#FD749B] to-[#B254AB] bg-clip-text'>
+                <p className="hidden lg:block">OUR RATES</p>
+                <p className='hidden lg:block'>OUR RESERVES</p>
+                <p className='hidden lg:block'>LATEST EXCHANGES</p>
               </div>
-              <div className=' lg:mt-6'>
-                <div className='flex  gap-10 w-full '>
-                  <div className='flex items-center justify-center gap-2 h-fit '>
-                    <Building />
-                    Bank Transfer
-                  </div> <p>NGN</p>  </div>
-                <p className=' text-end mb-7 mt-[0.60rem]'> <b>#3452030300303.24/$ </b> </p>
-                <div className='flex gap-10'>
-                  <div
-                    className='flex items-center justify-center gap-2 '        >
-                    <Bitcoin />
-                    <p>Bitcoin</p>
+              <div className='flex  justify-evenly gap-12 items-center flex-wrap  '>
+                <div className='flex flex-col gap-5'>
+                  <p className='block lg:hidden text-center border-b-2 pb-2 text-2xl font-bold leading-tight text-transparent h bg-gradient-to-br from-pink-500 to-indigo-900 bg-clip-text'>OUR RATES</p>
+                  <div className='flex gap-7 mt-6 ' >
+                    <div className='flex items-center justify-center gap-3 h-fit'>
+                      <Bitcoin />
+                      <p className="font-normal font-poppins text-sm">BTC</p>
+                    </div>
+                    <div>
+                      <p>We Buy @ <b>  ₦350/$ </b></p>
+                      <p className='pt-4'>We Sell <b>@ ₦370/$</b></p>
+                    </div>
                   </div>
-                  <p><b>399.98</b> BTC</p>
-                </div>
-                <div className='flex gap-10 mt-9 '>
-                  <div
-                    className='flex items-center justify-center gap-4'>
-                    <Eth />
-                    <p> Ethereum</p>
+                  <div className='flex gap-7 justify-between'>
+                    <div className='flex items-center justify-center gap-3 h-fit'>
+                      <Eth />
+                      <p className="font-normal font-poppins text-sm">ETH</p>
+                    </div>
+                    <div>
+                      <p>We Buy @ <b>₦350/$</b></p>
+                      <p className='pt-4'>We Sell <b>@ ₦370/$ </b></p>
+                    </div>
                   </div>
-                  <p><b>1000.00</b> ETH</p>
                 </div>
-              </div>
-              <div className='flex flex-col'>
-                <button className='self-center w-[80px] h-[20px] px-1 mt-3 text-xs text-white rounded-md bg-gradient-to-br from-pink-500 to-indigo-900'>8 hours ago</button>
-                <div className='flex flex-col'>
-                  <p className='flex items-center gap-1 justify-start h-fit text-[14px]' >
-                    <p>Bitcoin BTC</p>
-                    <Transfer />
-                    <p>Bank</p>
+                <div className='flex flex-col gap-5 lg:mt-6'>
+                  <p className='block lg:hidden text-center border-b-2 pb-2  text-2xl font-bold leading-tight text-transparent h bg-gradient-to-br from-pink-500 to-indigo-900 bg-clip-text'>OUR RESERVES</p>
+                  <div className='flex flex-col gap-5' >
+                    <div className='flex flex-row gap-10 h-fit'>
+                      <div className='flex items-center justify-center gap-2 h-fit '>
+                        <Building />
+                        <p className="font-normal font-poppins text-sm">Bank Transfer</p>
+                      </div> <p className="font-normal font-poppins text-sm">NGN</p>  </div>
+                    <p className='self-end'> <b>#3452030300303.24/$ </b> </p>
+                  </div>
+                  <p className='flex gap-10 h-fit'>
+                    <div className='flex items-center justify-center gap-2 h-fit' >
+                      <Bitcoin />
+                      <p className="font-normal font-poppins text-sm">Bitcoin</p>
+                    </div>
+                    <p><b>399.98</b>BTC</p>
                   </p>
-                  <p>
-                    Transfer NGN</p>
-                </div>
-                <div className="border-b-2">
-                  <div className='flex items-center justify-start gap-2  mt-8 mb-[1.87rem]'>
-                    <p className='whitespace-nowrap'><b>1.16</b> BTC</p>
-                    <Transfer1 />
-                    <p className='lg:whitespace-nowrap' ><b>696152299929.23</b>
-                      NGN</p>
+                  <div className='flex  justify-between items-center h-fit'>
+                    <div className='flex items-center justify-center gap-2 h-fit'>
+                      <Eth />
+                      <p className="font-normal font-poppins text-sm">Ethereum</p>
+                    </div>
+                    <p><b>1000.00</b> ETH</p>
                   </div>
                 </div>
-                <div className='flex items-center gap-1 mt-[1.25rem]'>
-                  <p className="font-normal font-poppins text-sm">Amazon Card</p> <Transfer /> <p className="font-normal font-poppins text-sm">Bank </p>
-                </div>
-                <p>Transfer NGN</p>
 
+                <div className='flex flex-col gap-2 lg:mb-6'>
+                  <p className='block lg:hidden text-center border-b-2 pb-2 text-2xl font-bold leading-tight text-transparent h bg-gradient-to-br from-pink-500 to-indigo-900 bg-clip-text'>LATEST EXCHANGES</p>
+                  <button className='self-center w-20 h-5 px-1 mt-3 text-xs text-white rounded-md bg-gradient-to-br from-pink-500 to-indigo-900'>8 hours ago</button>
+                  <div className='flex flex-col  '>
+                    <div className='flex items-center gap-2 justify-start h-fit text-[14px]' >
+                      <p>Bitcoin BTC</p><Transfer /> <p className="font-normal font-poppins text-sm">Bank</p>
+                    </div>
+                    <p>Transfer NGN</p>
+                  </div>
+                  <div className='py-2'>
+                    <div className='flex items-center justify-start gap-2 border-b-2'>
+                      <p className='whitespace-nowrap'><b>1.16</b> BTC</p>
+                      <Transfer1 />
+                      <p className='lg:whitespace-nowrap' ><b>696152299929.23</b>NGN</p>
+                    </div>
+                  </div>
+                  <div className='flex flex-col items-start text-[14px] justify-start h-fit '>
+                    <div className='flex flex-row items-center justify-start h-fit gap-2'>
+                      <p className="font-normal font-poppins text-sm">Amazon Card</p> <Transfer />  <p className="font-normal font-poppins text-sm">Bank</p>
+                    </div>
+                    <p className="font-normal font-poppins text-sm">Transfer NGN</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <img src={shape2} alt="shap" />
 
+        <img src={shape2} alt="shap" />
       </div>
+
     </>
   );
 }
 
 export default States;
+
+
+
+

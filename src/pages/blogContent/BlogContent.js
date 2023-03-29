@@ -1,6 +1,6 @@
 import React from 'react'
 import img from '../../assets/bg-img.webp'
-import wave from '../../assets/svg-icon/wave.svg'
+import { ReactComponent as Wave } from '../../assets/svg-icon/wave1.svg'
 import Button from '../../component/button/Button'
 import bitcoin from '../../assets/reference-img.webp'
 import { ReactComponent as Facebook } from '../../assets/svg-icon/fb-icon.svg'
@@ -11,12 +11,18 @@ import { ReactComponent as Youtube } from '../../assets/svg-icon/yt-icon.svg'
 
 function BlogContent() {
     return (
-        <div>
-            <div className=' bg-cover h-screen'
+        <div className='pb-[3.1rem]'>
+            <div className=' bg-cover h-[800px] flex flex-col justify-end '
                 style={{ backgroundImage: `url(${img})` }}>
-
                 <div className=''>
-                    <img className='w-full h-20' src={wave} alt='wave' />
+                    <h1 className='text-white text-center leading-10 w-full max-w-2xl mx-auto px-6 font-poppins font-bold sm:text-[2rem] text-2xl'>HOW TO SELL YOUR ITUNES GIFTCARD WITH US</h1>
+                    <div className='flex flex-row justify-center items-center sm:gap-3 mt-[1.100rem] text-white'>
+                        <span className='font-normal font-poppins text-[0.7rem] pr-2'>19 JUNE, 2019 </span> <span className='font-normal font-poppins text-[0.7rem] border-l px-2'>BUSINESS</span>
+                    </div>
+                </div>
+
+                <div className='mt-48'>
+                    <Wave />
                 </div>
             </div>
             <div className='mx-6'>
@@ -36,18 +42,16 @@ function BlogContent() {
                         </div>
                         <div className=''>
                             <img className='h-full' src={bitcoin} alt='img' />
-
                         </div>
                     </div>
                     <div>
                         <p className='text-base font-normal font-poppins mb-12'>Your yacht is your hotel that travels with you. There is only one flight and one hotel to book! Then you take all of your luggage and unpack it just once to enjoy several days of new destinations.</p>
                         <p className='text-base font-normal font-poppins'>If you have never experienced cruising before, a chartered experience is a great way to get your feet wet. It is different from cruise lines with thousands of guests because the people on your ship will be your friends and family. The personal touches of a chartered trip will help you develop your love for the sea with all the best benefits of commercial cruises.</p>
                     </div>
-                    <div className='flex items-center justify-between'>
+                    <div className=' sm:flex-nowrap flex items-center sm:justify-between justify-center flex-wrap '>
                         <div>
                             <h1 className='font-bold font-poppins italic text-base '>Tags: Business, Capital, Finance</h1>
                             <p className='font-bold font-poppins text-lg mt-[4.25rem] mb-[1.2rem] '>How to sell your iTunes <br /> giftcard with us</p>
-                            <p className='font-normal font-poppins text-xs  text-[#989898]'>prev post</p>
                         </div>
                         <div className=''>
                             <div className='flex gap-5 items-center'>
@@ -56,11 +60,15 @@ function BlogContent() {
                                 <Twitter />
                                 <Youtube />
                             </div>
-                            <p className='font-bold text-lg font-poppins mt-[4.25rem] text-[#FD749B] text-end'>Exchange 5 products </p>
-                            <p className=' font-bold text-lg font-poppins  text-[#281AC8] text-end mb-[1.2rem]'>and get 1 free product</p>
-                            <p className='font-normal font-poppins text-xs text-[#989898] text-end'>Next Post</p>
+                            <p className='font-bold text-lg font-poppins mt-[4.25rem] text-[#FD749B] sm:text-end text-start'>Exchange 5 products </p>
+                            <p className=' font-bold text-lg font-poppins  text-[#281AC8] sm:text-end text-start mb-[1.2rem]'>and get 1 free product</p>
                         </div>
                     </div>
+                    <div className='flex justify-between'>
+                        <p className='font-normal font-poppins text-xs  text-[#989898]'>prev post</p>
+                        <p className='font-normal font-poppins text-xs text-[#989898] text-end'>Next Post</p>
+                    </div>
+
                     <h1 className=' font-poppins font-bold text-2xl'>Leave A Comment</h1>
                     <p className='text-base font-normal font-poppins'>Your email address will not be published. Required fields are marked *</p>
 
@@ -84,10 +92,9 @@ function BlogContent() {
                     >
                         Your Comment
                     </textarea>
-                    <div className=" flex justify-start mt-[3.1rem] mb-[5.85rem]">
+                    <div className=" flex justify-start mt-[3.1rem]">
                         <Button text="PUBLISHD" />
                     </div>
-
                 </div>
             </div>
 

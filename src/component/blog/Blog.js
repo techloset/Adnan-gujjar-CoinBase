@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from '../button/Button'
 
 function Blog() {
     return (
@@ -9,18 +10,18 @@ function Blog() {
    text-transparent bg-clip-text">
                     Our blog
                 </h4>
-              <div className='flex justify-center mt-[1.10rem]'>
-                <div className='w-10 h-1 rounded-full bg-pink-500'></div>
-              </div>
+                <div className='flex justify-center mt-[1.10rem]'>
+                    <div className='w-10 h-1 rounded-full bg-pink-500'></div>
+                </div>
             </div>
 
             <div className='flex text-center justify-center mt-10'>
-                <h4 className="font-poppins text-base font-normal leading-14 text-gray-700">
+                <h4 className="font-poppins text-base font-normal leading-14 mx-6 text-gray-700">
                     Get to know the latest stuff via our blog post.
                 </h4>
             </div>
 
-            <div className="  pt-[6rem] flex justify-center items-center mx-[5rem]">
+            <div className="  pt-[6rem] flex justify-center items-center sm:mx-[5rem] mx-12 ">
 
                 <div className=" bg-white-100 z-10 bg-white max-lg:hidden lg:block   border-gray-400 border   sm:px-8 sm:pt-10 pb-[27px] rounded-xl overflow-hidden text-center ">
                     <div className='flex flex-row ml-[40px] gap-2  text-sm text-gray-500'>
@@ -34,8 +35,7 @@ function Blog() {
                         <p className="leading-[18px] text-left   text-gray-400">Lorem ipsum dolor sit amet, magna habemus
                             ius ad, qui minimum voluptaria in. Ad mei modus
                             quodsi complectitur, postea...</p>
-                        <button className="w-36 h-11  text-white font-poppins bg-gray-500 justify-start cursor-pointer rounded-full text-sm font-bold" >
-                            READ MORE</button>
+                        <div className='flex justify-end'><Button text='READ MORE' /></div>
                     </div>
                 </div>
 
@@ -46,24 +46,20 @@ function Blog() {
                         <div className='border-l-2 h-5 border-black '></div>
                         <p >BUSINESS</p>
                     </div>
-                    <div className='flex flex-col ml-[30px]  sm:gap-5 gap-3 '>
-
+                    <div className='flex flex-col ml-7  sm:gap-5 gap-3 '>
                         <h1 className=" sm:text-xl bg-gradient-to-b from-[#C35B95] to-[#B254AB]
                text-transparent bg-clip-text    text-xs text-left font-bold mt-1 sm:mt-3 mb-3">
                             ETH TO NAIRA EXCHANGE RATE IS NOW #400 PER...</h1>
                         <p className=" text-start text-[10px] sm:text-sm text-black leading-[20px]">Lorem ipsum dolor sit amet, magna habemus
                             ius ad, qui minimum voluptaria in. Ad mei modus
                             quodsi complectitur, postea...</p>
-                        <button className="sm:w-36 sm:h-11 w-[80px] h-[44px]  text-white font-poppins font-bold justify-start cursor-pointer rounded-full text-[10px] sm:text-sm" style={{ background: 'linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%)' }}>
-                            READ MORE</button>
+                        <div className='flex justify-start'>
+                            <Button text='READ MORE' />
+                        </div>
                     </div>
                 </div>
-
-
-
                 <div className="  bg-white-100 max-lg:hidden lg:block  border-gray-400 border  bg-opacity-75 sm:px-8 sm:pt-10 sm:pb-[27px] rounded-xl overflow-hidden text-center ">
                     <div className='flex flex-row   gap-2  text-sm text-gray-500'>
-
                         <p>01 FDEC, 2019</p>
                         <div className='border-l-2 h-5 border-gray-400 border '></div>
                         <p >LIFESTYLE</p>
