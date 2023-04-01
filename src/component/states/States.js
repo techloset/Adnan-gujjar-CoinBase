@@ -1,6 +1,6 @@
 import React from "react";
-import shape from "../../assets/path-1.png";
-import shape2 from "../../assets/svg-icon/path.svg"
+import shape from "../../assets/svg-icon/path.svg";
+import shape2 from "../../assets/svg-icon/path-1.svg"
 import { ReactComponent as Eth } from '../../assets/svg-icon/eth.svg';
 import { ReactComponent as Building } from '../../assets/svg-icon/bank-building.svg';
 import { ReactComponent as Bitcoin } from '../../assets/svg-icon/bitcoin.svg';
@@ -18,7 +18,7 @@ function States() {
         <img className="-mt-9" src={shape} alt="shap" />
         <div className="mx-5">
           <div className="w-full max-w-5xl mx-auto">
-            <div className='shadow-xl rounded-[30px] mt-36 mb-10 pb-14 bg-white '>
+            <div className='shadow-xl rounded-[30px] mt-[3.3rem] mb-[2.2rem] pb-14 bg-white '>
               <div className='flex justify-around border-b-2 items-center h-[80px]  text-2xl font-bold leading-tight text-transparent  bg-gradient-to-b from-[#FD749B] to-[#B254AB] bg-clip-text'>
                 <p className="hidden lg:block">OUR RATES</p>
                 <p className='hidden lg:block'>OUR RESERVES</p>
@@ -27,7 +27,7 @@ function States() {
               <div className='flex  justify-evenly gap-12 items-center flex-wrap  '>
                 <div className='flex flex-col gap-5'>
                   <p className='block lg:hidden text-center border-b-2 pb-2 text-2xl font-bold leading-tight text-transparent h bg-gradient-to-br from-pink-500 to-indigo-900 bg-clip-text'>OUR RATES</p>
-                  <div className='flex gap-7 mt-6 ' >
+                  <div className='flex gap-7 mt-6'>
                     <div className='flex items-center justify-center gap-3 h-fit'>
                       <Bitcoin />
                       <p className="font-normal font-poppins text-sm">BTC</p>
@@ -73,7 +73,6 @@ function States() {
                     <p><b>1000.00</b> ETH</p>
                   </div>
                 </div>
-
                 <div className='flex flex-col gap-2 lg:mb-6'>
                   <p className='block lg:hidden text-center border-b-2 pb-2 text-2xl font-bold leading-tight text-transparent h bg-gradient-to-br from-pink-500 to-indigo-900 bg-clip-text'>LATEST EXCHANGES</p>
                   <button className='self-center w-20 h-5 px-1 mt-3 text-xs text-white rounded-md bg-gradient-to-br from-pink-500 to-indigo-900'>8 hours ago</button>

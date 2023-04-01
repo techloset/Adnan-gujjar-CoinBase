@@ -16,7 +16,7 @@ function LandingPage() {
   return (
     <div className="">
       <MainComponent img={image}>
-        <div className="text-center mx-6 lg:text-start lg:ml-20">
+        <div className="text-center mx-6 lg:text-start lg:ml-[8rem] xl:ml-[11.4rem]">
           <p className="font-normal text-[2.5rem] font-sans text-white">
             We provide easy solution to exchange your{" "}
             <span className="font-bold font-poppins">
@@ -28,8 +28,7 @@ function LandingPage() {
             best rate, why not give us a trial.
           </p>
           <div className="flex  justify-center lg:justify-start mb-10 ">
-          <div className="px-8 py-4 bg-white rounded-full"><p>Get Started</p></div>
-            
+            <div className="px-8 py-4 bg-white rounded-full"><p>Get Started</p></div>
           </div>
         </div>
       </MainComponent>

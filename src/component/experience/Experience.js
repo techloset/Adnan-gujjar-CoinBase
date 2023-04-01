@@ -4,8 +4,8 @@ import Button from "../button/Button";
 
 function Experience() {
   return (
-    <div className=" mx-6 ">
-      <div className="grid grid-col-1 gap-9 items-center lg:grid-cols-2 w-full  max-w-2xl lg:max-w-4xl mx-auto ">
+    <div className="block md:flex  lg:block  justify-center items-center">
+      <div className="grid grid-col-1  gap-14 items-center lg:grid-cols-2  max-w-2xl lg:max-w-4xl xl-max-w-none ml-10 mr-10 xl:ml-[13.6rem] xl:mr-[10.7rem]">
         <div>
           <h1 className="font-bold text-[1.75rem] font-poppins text-pink-500">
             Great experience

@@ -4,8 +4,8 @@ import Button from "../button/Button";
 
 function CoinBase() {
   return (
-    <div className=" mx-6 lg:mx-0">
-      <div className="grid grid-col-1 gap-9 items-center lg:grid-cols-2 w-full  max-w-2xl lg:max-w-6xl mx-auto ">
+    <div className=" block md:flex  lg:block  justify-center items-center">
+      <div className="grid grid-col-1 gap-9 items-center lg:grid-cols-2 max-w-2xl lg:max-w-5xl xl:max-w-none ml-10 mr-10 xl:ml-[8.5rem] xl:mr-[9.7rem]">
         <div>
           <img src={layer} alt="img" />
         </div>

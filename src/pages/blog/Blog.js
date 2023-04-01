@@ -9,8 +9,8 @@ function Blog() {
     return (
         <div className=''>
             <MainComponent img={image}>
-                <div className="text-center mx-6 lg:text-start lg:ml-20">
-                    <h2 className=' font-poppins font-normal text-xs text-white'>HOME/BLOG</h2>
+                <div className="text-center mx-6 lg:text-start lg:ml-[8rem] xl:ml-[11.4rem]">
+                    <h2 className=' font-poppins font-normal text-xs text-white mb-4'>HOME/BLOG</h2>
 
                     <p className="font-normal text-[2.5rem] font-sans text-white">
                         Stay updated,
@@ -23,19 +23,19 @@ function Blog() {
                 </div>
             </MainComponent>
             <div className='px-5'>
-                <div className='w-full max-w-5xl mx-auto'>
+                <div className='w-full max-w-[73rem] mx-auto'>
                     {
                         data.map((items) => {
                             return <BlogCard data={items} />
                         })
                     }
                 </div>
-                <div className='flex flex-row justify-center items-center gap-3 py-14 h-full'>
+                <div className='flex flex-row justify-center items-center gap-3 mt-[7.2rem] mb-[9.1rem]  h-full'>
                     <button className='rounded-full text-lg  w-14 h-14' style={{ background: 'linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%)' }}>01</button>
-                    <button className='rounded-full w-14 h-14 text-lg bg-white shadow-lg border border-gray-300'>02</button>
-                    <button className='rounded-full w-14 h-14 text-lg bg-white shadow-lg border border-gray-300'>03</button>
-                    <button className='rounded-full w-14 h-14 text-lg bg-white shadow-lg border border-gray-300'>-</button>
-                    <button className='rounded-full w-24 h-14 text-lg bg-white shadow-lg border border-gray-300'>Next</button>
+                    <button className='rounded-full w-[3.80rem] h-[3.80rem] text-lg bg-white shadow-lg border border-gray-300'>02</button>
+                    <button className='rounded-full w-[3.80rem] h-[3.80rem] text-lg bg-white shadow-lg border border-gray-300'>03</button>
+                    <button className='rounded-full w-[3.80rem] h-[3.80rem] text-lg bg-white shadow-lg border border-gray-300'>…</button>
+                    <button className='rounded-full w-[6.3rem] h-[3.80rem] text-lg bg-white shadow-lg border border-gray-300'>Next</button>
                 </div>
             </div>
         </div>

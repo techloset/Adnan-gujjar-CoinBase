@@ -17,9 +17,9 @@ import Footer from "../../component/footer/Footer";
 function Contact() {
   return (
     <div>
-      <div className=" pb-20">
+      <div className=" pb-[5.4rem]">
         <MainComponent img={img}>
-          <div className="text-center mx-6 lg:text-start lg:ml-20">
+          <div className="text-center mx-6 lg:text-start lg:ml-[8rem] xl:ml-[11.4rem]">
             <p className="font-normal text-[2.5rem] font-sans text-white">
               24/7 Customer support Including weekends.
             </p>
@@ -29,11 +29,11 @@ function Contact() {
           </div>
         </MainComponent>
         <div>
-          <p className="font-normal font-poppins text-lg text-center">
+          <p className="font-normal font-poppins text-lg text-center p-6">
             Please note that all message will be replied within the next 12hours
           </p>
           <div className="mx-5">
-            <div className="w-full max-w-xl mx-auto ">
+            <div className="w-full max-w-[45.80rem] mx-auto ">
               <div class="flex gap-[2.30rem] flex-wrap  sm:flex-nowrap mt-12 mb-[1.90rem]">
                 <input
                   class="border-2 p-5 w-full  border-[#D1D1D1]"
@@ -47,7 +47,7 @@ function Contact() {
                 />
               </div>
               <textarea
-                class="border-2 border-[#D1D1D1] pt-5 pl-5  w-full "
+                class="border-2 border-[#D1D1D1] pt-5 pl-5  w-full"
                 id="w3review"
                 name="w3review"
                 rows="8"
@@ -59,10 +59,10 @@ function Contact() {
               </div>
             </div>
           </div>
-          <div className="w-full  max-w-xl mx-auto h-96  ">
+          <div className="w-full  max-w-[45.80rem] mx-auto h-[25rem]">
             <div className="h-96 mx-4 flex items-center justify-center " style={{ backgroundImage: `url(${map})` }}>
-              <div className="w-full max-w-xs bg-white rounded-2xl pt-12 pb-[3.25rem] mx-2 px-4">
-                <div className=" flex gap-4 ">
+              <div className="w-full max-w-[20.80rem] bg-white rounded-2xl pt-12 pb-[3.25rem] mx-2 px-4">
+                <div className=" flex gap-4">
                   <img src={pin} alt="pin" />
                   <p>13 Sawyer Crescent Victoria Island Lagos Nigeria</p>
                 </div>

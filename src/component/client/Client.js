@@ -1,12 +1,12 @@
 import React from 'react'
-import ourClients from '../../assets/bg-image.webp'
+import ourClients from '../../assets/bg-image.png'
 import happy from '../../assets/happy-customer.webp'
 
 
 const Client = () => {
     return (
         <div>
-            <div className='bg-cover bg-no-repeat flex flex-col justify-center items-center h-[1500px]'
+            <div className='bg-cover bg-no-repeat flex flex-col justify-center items-center'
                 style={{ backgroundImage: `url(${ourClients})` }}>
                 <div className=" w-full max-w-xl mx-auto text-white mt-0 md:mt-16 px-6">
                     <h1 class="text-3xl text-center font-medium font-poppins ">10,000 Satisfied clients
@@ -19,9 +19,8 @@ const Client = () => {
                         Hover ontop of them pic to view their testimonials.</p>
                 </div>
                 <div className='w-full max-w-5xl mx-auto px-6 '>
-                    <img src={happy} alt="image not found" />
+                    <img src={happy} alt="image not found"/>
                 </div>
-
             </div>
         </div>
     )

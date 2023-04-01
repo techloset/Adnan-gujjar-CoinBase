@@ -23,7 +23,7 @@ function Navigation() {
                     {/* <Route path="/contact" element={<BlogContent />} /> */}
                     <Route path="/blog-content" element={<BlogContent/>} />
                 </Routes>
-                <Footer />
+                {/* <Footer /> */}
             </BrowserRouter>
         </div>
     )

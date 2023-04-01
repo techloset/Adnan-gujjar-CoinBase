@@ -8,15 +8,14 @@ import { ReactComponent as Quality } from '../../assets/svg-icon/Quality.svg'
 import { ReactComponent as Medal } from '../../assets/svg-icon/medal.svg'
 import OurHistory from '../../component/ourHistory/OurHistory'
 import Meet from '../../component/meet/Meet'
-import Footer from '../../component/footer/Footer'
 
 
 function About() {
     return (
         <div >
             <MainComponent img={services}>
-                <div className="text-center mx-6 lg:text-start lg:ml-20">
-                    <h2 className=' font-poppins font-normal text-xs text-white'>HOME/ABOUT US</h2>
+                <div className="text-center mx-6 lg:ml-[11.4rem] lg:text-start">
+                    <h2 className=' font-poppins font-normal text-xs text-white mb-4'>HOME/ABOUT US</h2>
 
                     <p className="font-normal text-[2.5rem] font-sans text-white">
                         Great service,
@@ -29,19 +28,19 @@ function About() {
                 </div>
             </MainComponent>
             <div>
-            <p className='bg-gradient-to-b w-full  max-w-lg mx-auto from-[#FD749B] to-[#281AC8] text-transparent 
+                <p className='bg-gradient-to-b w-full leading-10  max-w-lg mx-auto from-[#FD749B] to-[#281AC8] text-transparent 
         bg-clip-text cursor-pointer font-bold text-lg text-center'
-        >
-          “Morbi sagittis ultricies ex, a tempus lorem suscipit non.
-          Donec semper leo ut lobortis condimentum. Orci varius natoque penatibus et magnis”</p>
-                <div className='flex justify-center items-center my-5 '>
+                >
+                    “Morbi sagittis ultricies ex, a tempus lorem suscipit non.
+                    Donec semper leo ut lobortis condimentum. Orci varius natoque penatibus et magnis”</p>
+                <div className='flex justify-center items-center mt-[1.3rem] mb-5 '>
                     <div className='bg-pink-500 w-12 h-2 rounded-lg'>
                     </div>
                 </div>
                 <p className='font-poppins font-normal  text-sm text-center'>Ramon Ridwan • CEO CoinBase</p>
             </div>
-            <div className='mx-5'>
-                <div className="border-fuchsia-400 w-full max-w-4xl mx-auto  my-10 py-9  px-4 border-2  rounded-3xl">
+            <div className='lg:mx-0 mx-6'>
+                <div className="border-fuchsia-400 w-full max-w-[66rem] mx-auto mt-[4.1rem] mb-[6.7rem] py-9  px-4 border-2  rounded-3xl">
                     <div className="w-full max-w-lg mx-auto ">
                         <div className='flex justify-center'>
                             <img className=" " src={layer} alt="hero" />
