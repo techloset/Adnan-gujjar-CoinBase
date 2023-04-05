@@ -33,8 +33,8 @@ function States() {
                       <p className="font-normal font-poppins text-sm">BTC</p>
                     </div>
                     <div>
-                      <p>We Buy @ <b>  ₦350/$ </b></p>
-                      <p className='pt-4'>We Sell <b>@ ₦370/$</b></p>
+                      <p className="text-sm font-poppins">We Buy @ <b>  ₦350/$ </b></p>
+                      <p className="text-sm font-poppins pt-4">We Sell <b>@ ₦370/$</b></p>
                     </div>
                   </div>
                   <div className='flex gap-7 justify-between'>
@@ -43,8 +43,8 @@ function States() {
                       <p className="font-normal font-poppins text-sm">ETH</p>
                     </div>
                     <div>
-                      <p>We Buy @ <b>₦350/$</b></p>
-                      <p className='pt-4'>We Sell <b>@ ₦370/$ </b></p>
+                      <p className="text-sm font-poppins">We Buy @ <b>₦350/$</b></p>
+                      <p className="text-sm font-poppins pt-4">We Sell <b>@ ₦370/$ </b></p>
                     </div>
                   </div>
                 </div>
@@ -56,26 +56,26 @@ function States() {
                         <Building />
                         <p className="font-normal font-poppins text-sm">Bank Transfer</p>
                       </div> <p className="font-normal font-poppins text-sm">NGN</p>  </div>
-                    <p className='self-end'> <b>#3452030300303.24/$ </b> </p>
+                    <p className='self-end text-sm font-poppins '> <b>#3452030300303.24/$ </b> </p>
                   </div>
                   <p className='flex gap-10 h-fit'>
                     <div className='flex items-center justify-center gap-2 h-fit' >
                       <Bitcoin />
                       <p className="font-normal font-poppins text-sm">Bitcoin</p>
                     </div>
-                    <p><b>399.98</b>BTC</p>
+                    <p className="text-sm font-poppins"><b>399.98</b>BTC</p>
                   </p>
                   <div className='flex  justify-between items-center h-fit'>
                     <div className='flex items-center justify-center gap-2 h-fit'>
                       <Eth />
                       <p className="font-normal font-poppins text-sm">Ethereum</p>
                     </div>
-                    <p><b>1000.00</b> ETH</p>
+                    <p className="text-sm font-poppins"><b>1000.00</b> ETH</p>
                   </div>
                 </div>
                 <div className='flex flex-col gap-2 lg:mb-6'>
                   <p className='block lg:hidden text-center border-b-2 pb-2 text-2xl font-bold leading-tight text-transparent h bg-gradient-to-br from-pink-500 to-indigo-900 bg-clip-text'>LATEST EXCHANGES</p>
-                  <button className='self-center w-20 h-5 px-1 mt-3 text-xs text-white rounded-md bg-gradient-to-br from-pink-500 to-indigo-900'>8 hours ago</button>
+                  <button className='self-center w-[5.3rem] px-3 py-2 mt-3 text-[0.5rem] text-white rounded-md bg-gradient-to-br from-pink-500 to-indigo-900'>8 hours ago</button>
                   <div className='flex flex-col  '>
                     <div className='flex items-center gap-2 justify-start h-fit text-[14px]' >
                       <p>Bitcoin BTC</p><Transfer /> <p className="font-normal font-poppins text-sm">Bank</p>
@@ -86,7 +86,7 @@ function States() {
                     <div className='flex items-center justify-start gap-2 border-b-2'>
                       <p className='whitespace-nowrap'><b>1.16</b> BTC</p>
                       <Transfer1 />
-                      <p className='lg:whitespace-nowrap' ><b>696152299929.23</b>NGN</p>
+                      <p className='lg:whitespace-nowrap text-xs font-poppins'><b>696152299929.23</b>NGN</p>
                     </div>
                   </div>
                   <div className='flex flex-col items-start text-[14px] justify-start h-fit '>

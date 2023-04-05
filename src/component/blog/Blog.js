@@ -5,8 +5,7 @@ function Blog() {
     return (
         <>
             <div className='flex text-center flex-col  justify-center mt-36'>
-
-                <h4 className="font-poppins font-bold text-2xl leading-14 bg-gradient-to-b from-[#C35B95] to-[#B254AB]
+                <h4 className="font-poppins font-bold text-[1.75rem] leading-14 bg-gradient-to-b from-[#C35B95] to-[#B254AB]
    text-transparent bg-clip-text">
                     Our blog
                 </h4>

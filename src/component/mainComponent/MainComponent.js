@@ -1,5 +1,5 @@
 import React from "react";
-import { ReactComponent as Wave } from '../../assets/svg-icon/path-4.svg'
+import wave from '../../assets/svg-icon/path-4.svg'
 
 function MainComponent(props) {
   return (
@@ -10,7 +10,7 @@ function MainComponent(props) {
           <img src={props.img} alt="image not found" />
         </div>
       </div>
-      <Wave />
+      <img className="w-full" src={wave} alt="wave" />
     </div>
   );
 }

@@ -14,15 +14,15 @@ function About() {
     return (
         <div >
             <MainComponent img={services}>
-                <div className="text-center mx-6 lg:ml-[11.4rem] lg:text-start">
+                <div className="text-center mx-6 mt-8 xl:mt-0  xl:ml-[11.4rem] lg:ml-[8rem] lg:text-start">
                     <h2 className=' font-poppins font-normal text-xs text-white mb-4'>HOME/ABOUT US</h2>
 
-                    <p className="font-normal text-[2.5rem] font-sans text-white">
+                    <p className="text-[2.5rem] font-poppins font-bold  text-white">
                         Great service,
                         Professional support
                     </p>
                     <p className="text-lg font-normal font-Poppins  text-white mt-[21px] mb-[1.9rem]">
-                        CoinBase is a platform for trading your bitcoin and<br />
+                        CoinBase is a platform for trading your bitcoin and
                         giftcard at the best rate, why not give us a trial.
                     </p>
                 </div>

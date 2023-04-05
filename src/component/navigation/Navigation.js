@@ -20,10 +20,10 @@ function Navigation() {
                     <Route path="/about" element={<About />} />
                     <Route path="/contact" element={<Contact />} />
                     <Route path="/blog"  element={<Blog/>}/>
-                    {/* <Route path="/contact" element={<BlogContent />} /> */}
+                    {/* <Route path="/blog-contact" element={<BlogContent />} /> */}
                     <Route path="/blog-content" element={<BlogContent/>} />
                 </Routes>
-                {/* <Footer /> */}
+                <Footer />
             </BrowserRouter>
         </div>
     )

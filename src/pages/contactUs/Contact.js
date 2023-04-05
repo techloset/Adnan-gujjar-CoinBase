@@ -12,7 +12,7 @@ import call from "../../assets/svg-icon/phone-call.svg";
 import mail from "../../assets/svg-icon/email.svg";
 import pin from "../../assets/svg-icon/pin.svg";
 import map from "../../assets/map.webp";
-import Footer from "../../component/footer/Footer";
+
 
 function Contact() {
   return (
@@ -20,7 +20,7 @@ function Contact() {
       <div className=" pb-[5.4rem]">
         <MainComponent img={img}>
           <div className="text-center mx-6 lg:text-start lg:ml-[8rem] xl:ml-[11.4rem]">
-            <p className="font-normal text-[2.5rem] font-sans text-white">
+            <p className="text-[2.5rem] font-bold font-sans text-white">
               24/7 Customer support Including weekends.
             </p>
             <p className="text-lg font-normal font-Poppins  text-white mt-[21px] mb-[1.9rem]">

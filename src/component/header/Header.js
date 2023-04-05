@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Button from "../button/Button";
 import { Link } from "react-router-dom";
 import triangle from '../../assets/svg-icon/triangle.svg'
 import { ReactComponent as Menu } from '../../assets/svg-icon/menu-icon.svg'
@@ -9,6 +8,8 @@ function Header() {
 
   const [showTabs, setShowTabs] = useState(false);
   const [open, setOpen] = useState(false);
+  const [activeTab, setActiveTab] = useState(0);
+
 
 
 
@@ -19,19 +20,25 @@ function Header() {
     setShowTabs(!showTabs);
   }
 
+
+  const handleTabClick = (index) => {
+    setActiveTab(index)
+  };
+
+
   return (
     <div>
-      <div className="flex justify-between items-center h-[7.5rem] lg:pl-[6.6rem] xl:pr-[5.5rem]  pl-6 pr-6">
-        <div className=" flex items-end gap-2 cursor-pointer">
+      <div className="flex justify-between items-center h-[7.5rem] xl:pl-[6.6rem]  xl:pr-[5.5rem]  pl-6 pr-6">
+        <Link to='/'><div className=" flex items-end gap-2 cursor-pointer">
           <Logo />
-          <h1>CoinBase</h1>
         </div>
-        <div className="md:flex items-center w-[75%] justify-between gap-1 hidden">
+        </Link>
+        <div className="md:flex items-center w-[75%] cursor-pointer justify-between gap-1 hidden">
           <ul className="flex list-none w-[50%] justify-between gap-1">
-            <li className="font-bold font-poppins text-sm"><Link to='/'>Home</Link></li>
-            <li className="font-bold font-poppins text-sm"><Link to='/about'>About us</Link></li>
-            <li className="font-bold font-poppins text-sm"><Link to='/blog'>Blog</Link></li>
-            <li className="font-bold font-poppins text-sm"><Link to='/contact'>Contact us</Link></li>
+            <li className={`font-bold font-poppins text-sm py-1 ${activeTab === 0 ? 'border-b-4 border-pink-500 font-bold' : ''}`} onClick={() => handleTabClick(0)}><Link to='/'>Home</Link></li>
+            <li className={`font-bold font-poppins text-sm py-1 ${activeTab === 1 ? 'border-b-4 border-pink-500 font-bold' : ''}`} onClick={() => handleTabClick(1)}><Link to='/about'>About us</Link></li>
+            <li className={`font-bold font-poppins text-sm py-1 ${activeTab === 2 ? 'border-b-4 border-pink-500 font-bold' : ''}`} onClick={() => handleTabClick(2)}><Link to='/blog'>Blog</Link></li>
+            <li className={`font-bold font-poppins text-sm py-1 ${activeTab === 3 ? 'border-b-4 border-pink-500 font-bold' : ''}`} onClick={() => handleTabClick(3)}><Link to='/contact'>Contact us</Link></li>
           </ul>
           <div className="flex items-center gap-8">
             <div onClick={dropDown} className="flex items-center gap-2">
@@ -84,10 +91,31 @@ function Header() {
       {showTabs ? (
         <div className="flex items-center w-full justify-center md:hidden">
           <ul className="flex flex-col w-full list-none gap-4 pb-3">
-            <li className="font-bold font-poppins text-sm text-center"><Link to='/'>Home</Link></li>
-            <li className="font-bold font-poppins text-sm text-center"><Link to='/about'>About us</Link></li>
-            <li className="font-bold font-poppins text-sm text-center"><Link to='/blog'>Blog</Link></li>
-            <li className="font-bold font-poppins text-sm text-center"><Link to='/contact'>Contact us</Link></li>
+            <div>
+              <li className="font-bold font-poppins text-sm text-center"><Link to='/'>Home</Link></li>
+              <div className='flex justify-center'>
+                <div className='bg-red-500 w-12 h-1 rounded-md'></div>
+              </div>
+            </div>
+            <div>
+              <li className="font-bold font-poppins text-sm text-center"><Link to='/about'>About us</Link></li>
+              <div className='flex justify-center'>
+                <div className='bg-red-500 w-12 h-1 rounded-md'></div>
+              </div>
+            </div>
+            <div>
+              <li className="font-bold font-poppins text-sm text-center"><Link to='/blog'>Blog</Link></li>
+              <div className='flex justify-center'>
+                <div className='bg-red-500 w-12 h-1 rounded-md'></div>
+              </div>
+            </div>
+            <div>
+              <li className="font-bold font-poppins text-sm text-center"><Link to='/contact'>Contact us</Link></li>
+              <div className='flex justify-center'>
+                <div className='bg-red-500 w-12 h-1 rounded-md'></div>
+              </div>
+            </div>
+
             <li>
               <div className="flex items-center gap-2">
                 <div className="flex justify-center w-full">

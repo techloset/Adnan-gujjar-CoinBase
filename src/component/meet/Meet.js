@@ -29,7 +29,8 @@ function Meet() {
                     </div>
                 </div>
             </div>
-            <h1 className='text-center font-bold font-poppins leading-[4rem] text-[1.75rem] mt-20'>Subscribe our newsletter</h1>
+            <h1 className='text-center font-bold font-poppins leading-[4rem] text-[1.75rem] mt-20 bg-gradient-to-b from-[#C35B95] to-[#B254AB]
+                                text-transparent bg-clip-text'>Subscribe our newsletter</h1>
             <div className='flex justify-center mb-9'>
                 <div className='bg-pink-500 w-12 h-2 rounded-lg'>
                 </div>

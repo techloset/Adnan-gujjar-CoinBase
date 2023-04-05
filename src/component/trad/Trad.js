@@ -10,7 +10,7 @@ function Trad() {
         style={{ height: '550px',  backgroundImage: `url(${bgimage})`, backgroundSize: "cover" }}>
             <div className=' bg-white  sm:mt-32 lg:w-[980px] lg:h-[504px] md:w-[700px] md:h-[450px]  sm:w-[500px] sm:h-[350px] w-[300px] h-[370px] shadow-lg rounded-2xl  '>
                 <div className='flex text-center justify-center mt-10'>
-                    <h4 className="font-poppins font-bold sm:text-2xl text-lg
+                    <h4 className="font-poppins font-bold sm:text-[1.75rem] text-lg
              leading-14 bg-gradient-to-b from-[#C35B95] to-[#B254AB]
                text-transparent bg-clip-text">
                         Trade from anywhere

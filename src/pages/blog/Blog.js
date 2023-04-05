@@ -9,10 +9,10 @@ function Blog() {
     return (
         <div className=''>
             <MainComponent img={image}>
-                <div className="text-center mx-6 lg:text-start lg:ml-[8rem] xl:ml-[11.4rem]">
+                <div className="text-center mx-6 m-8 lg:text-start lg:ml-[8rem] xl:ml-[11.4rem] w-full max-w-[412px] ">
                     <h2 className=' font-poppins font-normal text-xs text-white mb-4'>HOME/BLOG</h2>
 
-                    <p className="font-normal text-[2.5rem] font-sans text-white">
+                    <p className="text-[2.5rem] font-bold font-sans text-white">
                         Stay updated,
                         Never miss a post.
                     </p>

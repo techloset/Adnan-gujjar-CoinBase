@@ -10,11 +10,11 @@ function CoinBase() {
           <img src={layer} alt="img" />
         </div>
         <div >
-          <h1 className="font-bold text-[1.75rem] font-poppins bg-gradient-to-b from-[#C35B95] to-[#B254AB]
+          <h1 className="font-bold sm:text-[1.75rem] text-lg leading-[4rem] font-poppins bg-gradient-to-b from-[#C35B95] to-[#B254AB]
               text-transparent bg-clip-text">
             Welcome to CoinBase
           </h1>
-          <div className="w-10 h-1 bg-pink-500 rounded-lg"></div>
+          <div className="w-10 h-1 bg-pink-500 rounded-lg mt"></div>
           <p className="font-normal font-poppins text-base leading-10 my-9">
             We have the best rates . Simply start your exchange right now. Sign
             up for our Affiliate program and earn commission from each exchange.
