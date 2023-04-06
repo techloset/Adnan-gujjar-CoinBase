@@ -91,29 +91,18 @@ function Header() {
       {showTabs ? (
         <div className="flex items-center w-full justify-center md:hidden">
           <ul className="flex flex-col w-full list-none gap-4 pb-3">
-            <div>
-              <li className="font-bold font-poppins text-sm text-center"><Link to='/'>Home</Link></li>
-              <div className='flex justify-center'>
-                <div className='bg-red-500 w-12 h-1 rounded-md'></div>
-              </div>
+            <div className="flex justify-center">
+              <li className={`font-bold font-poppins text-sm py-1 ${activeTab === 0 ? 'border-b-4 border-pink-500 font-bold' : ''}`} onClick={() => handleTabClick(0)}><Link to='/'>Home</Link></li>
             </div>
-            <div>
-              <li className="font-bold font-poppins text-sm text-center"><Link to='/about'>About us</Link></li>
-              <div className='flex justify-center'>
-                <div className='bg-red-500 w-12 h-1 rounded-md'></div>
-              </div>
+            <div className="flex justify-center">
+              <li className={`font-bold font-poppins text-sm py-1 ${activeTab === 1 ? 'border-b-4 border-pink-500 font-bold' : ''}`} onClick={() => handleTabClick(1)}><Link to='/about'>About us</Link></li>
             </div>
-            <div>
-              <li className="font-bold font-poppins text-sm text-center"><Link to='/blog'>Blog</Link></li>
-              <div className='flex justify-center'>
-                <div className='bg-red-500 w-12 h-1 rounded-md'></div>
-              </div>
+            <div className="flex justify-center">
+              <li className={`font-bold font-poppins text-sm py-1 ${activeTab === 2 ? 'border-b-4 border-pink-500 font-bold' : ''}`} onClick={() => handleTabClick(2)}><Link to='/blog'>Blog</Link></li>
             </div>
-            <div>
-              <li className="font-bold font-poppins text-sm text-center"><Link to='/contact'>Contact us</Link></li>
-              <div className='flex justify-center'>
-                <div className='bg-red-500 w-12 h-1 rounded-md'></div>
-              </div>
+            <div className="flex justify-center">
+              <li className={`font-bold font-poppins text-sm py-1 ${activeTab === 3 ? 'border-b-4 border-pink-500 font-bold' : ''}`} onClick={() => handleTabClick(3)}><Link to='/contact'>Contact us</Link></li>
+
             </div>
 
             <li>

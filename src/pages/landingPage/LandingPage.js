@@ -14,10 +14,10 @@ function LandingPage() {
   return (
     <div className="">
       <MainComponent img={image}>
-        <div className="text-center mx-6 lg:text-start lg:ml-[8rem] xl:ml-[11.4rem]">
-          <p className="font-normal text-[2.5rem] font-sans text-white">
+        <div className="text-center mx-6 lg:text-start lg:ml-[8rem] mt-6 xl:ml-[11.4rem]">
+          <p className="font-normal leading-[3.8rem] xl:text-[2.5rem] text-3xl font-sans text-white">
             We provide easy solution to exchange your{" "}
-            <span className="font-bold font-poppins">
+            <span className="xl:font-bold font-semibold font-poppins">
               Bitcoin/ GiftCard for money
             </span>
           </p>
@@ -37,7 +37,7 @@ function LandingPage() {
       <Trad />
       <Blog />
       <Client />
-      <AppappText/>
+      <AppappText />
       <OurApp />
     </div>
   );

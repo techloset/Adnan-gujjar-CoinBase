@@ -19,9 +19,8 @@ function Navigation() {
                     <Route path="/" element={<LandingPage />} />
                     <Route path="/about" element={<About />} />
                     <Route path="/contact" element={<Contact />} />
-                    <Route path="/blog"  element={<Blog/>}/>
-                    {/* <Route path="/blog-contact" element={<BlogContent />} /> */}
-                    <Route path="/blog-content" element={<BlogContent/>} />
+                    <Route path="/blog" element={<Blog />} />
+                    <Route path="/blog-content" element={<BlogContent />} />
                 </Routes>
                 <Footer />
             </BrowserRouter>

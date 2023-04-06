@@ -12,10 +12,10 @@ function OurApp() {
         <div>
             <div className='bg-gradient-to-b from-pink-500 via to-indigo-900 relative h-[700px] xl:h-screen w-[100%]'>
                 <img className="w-full" src={wave} alt='wave' />
-                <div className='sm:w-60 sm:h-[50%] xl:top-[60%] top-[40%] h-[50%] w-[30%] right-[52%]  absolute'>
+                <div className='sm:w-60 sm:h-[50%] xl:top-[50%] top-[40%] h-[50%] w-[30%] right-[52%]  absolute'>
                     <img src={device} alt="Image 1" />
                 </div>
-                <div className='sm:w-60 sm:h-[50%] xl:top-[60%] top-[40%]  h-[50%] w-[30%] left-[52%] absolute'>
+                <div className='sm:w-60 sm:h-[50%] xl:top-[50%] top-[40%]  h-[50%] w-[30%] left-[52%] absolute'>
                     <img src={device1} alt="Image 1" />
                 </div>
             </div>

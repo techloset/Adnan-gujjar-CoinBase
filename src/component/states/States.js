@@ -18,7 +18,7 @@ function States() {
         <img className="-mt-9" src={shape} alt="shap" />
         <div className="mx-5">
           <div className="w-full max-w-5xl mx-auto">
-            <div className='shadow-xl rounded-[30px] mt-[3.3rem] mb-[2.2rem] pb-14 bg-white '>
+            <div className='shadow-xl rounded-[30px] mt-[3.3rem] mb-[2.2rem] pb-14 px-4 bg-white '>
               <div className='flex justify-around border-b-2 items-center h-[80px]  text-2xl font-bold leading-tight text-transparent  bg-gradient-to-b from-[#FD749B] to-[#B254AB] bg-clip-text'>
                 <p className="hidden lg:block">OUR RATES</p>
                 <p className='hidden lg:block'>OUR RESERVES</p>

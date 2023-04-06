@@ -17,7 +17,7 @@ function About() {
                 <div className="text-center mx-6 mt-8 xl:mt-0  xl:ml-[11.4rem] lg:ml-[8rem] lg:text-start">
                     <h2 className=' font-poppins font-normal text-xs text-white mb-4'>HOME/ABOUT US</h2>
 
-                    <p className="text-[2.5rem] font-poppins font-bold  text-white">
+                    <p className="xl:text-[2.5rem] text-3xl font-poppins font-bold leading-[3.7rem] text-white">
                         Great service,
                         Professional support
                     </p>
