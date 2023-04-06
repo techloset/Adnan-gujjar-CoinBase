@@ -16,7 +16,7 @@ function BlogCard({ data }) {
                     <div className='flex flex-row justify-center items-center sm:gap-3'>
                         <span className='font-normal font-poppins text-[0.7rem]'>19 JUNE, 2019 </span> <span className='font-normal font-poppins text-[0.7rem] border-l px-2'>{data?.business}</span>
                     </div>
-                    <p className='font-normal font-poppins text-base text-center mb-[0.71rem] mt-[1.82rem] leading-7'>{data?.des}</p>
+                    <p className='font-normal font-poppins text-base text-center mb-10 mt-[1.82rem] leading-7'>{data?.des}</p>
                     <div className='flex justify-center'>
                         <Button text='DISCOVER' />
                     </div>

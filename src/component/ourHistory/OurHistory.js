@@ -5,7 +5,7 @@ import tree from '../../assets/tree.webp'
 function OurHistory() {
     return (
         <div>
-            <div className=" pb-[7.8rem]">
+            <div className="pb-[7.8rem]">
                 <h1 className="font-poppins font-bold text-3xl leading-[4rem] bg-gradient-to-b from-[#D664A4] to-[#B856A9]
            text-transparent bg-clip-text text-center">Our history</h1>
                 <div className='flex justify-center mb-[5.4rem] '>
@@ -16,13 +16,13 @@ function OurHistory() {
                     <div className='flex flex-col  md:w-[34%] text-end gap-5 sm:gap-16 md:gap-56'>
                         <div className=" md:pr-[2.8rem] pr-0px ">
                             <h1 className='text-[#ed7fb2] text-[2rem] mb-4 text-left md:text-right font-bold'>May 2010</h1>
-                            <p className='font-normal font-poppins leading-[1.90rem] text-sm text-left md:text-right'>
+                            <p className='font-normal font-poppins leading-[1.90rem] text-lg text-left md:text-right'>
                                 Ut enim mi, mattis at sollicitudin rhoncus, rhoncus eget sem. Curabitur aliquam tellus eu nisl suscipit,
                                 at vestibulum ex rutrum. Nulla facilisi. Cras ullamcorper pellentesque orci, nec vestibulum nibh.uspendisse</p>
                         </div>
                         <div className="md:pr-[2.8rem] pr-[0px] ">
                             <h1 className='text-[#ed7fb2] text-[2rem] mb-4 text-left md:text-right font-bold'>May 2019</h1>
-                            <p className='font-normal font-poppins leading-[1.90rem] text-sm text-left md:text-right'>
+                            <p className='font-normal font-poppins leading-[1.90rem] text-lg text-left md:text-right'>
                                 Ut enim mi, mattis at sollicitudin rhoncus, rhoncus eget sem. Curabitur aliquam tellus eu nisl suscipit,
                                 at vestibulum ex rutrum. Nulla facilisi. Cras ullamcorper pellentesque orci, nec vestibulum nibh.uspendisse</p>
                         </div>
@@ -31,8 +31,8 @@ function OurHistory() {
                         <img src={tree} alt="tree" />
                     </div>
                     <div className="md:w-1/3 md:pl-[2.8rem] pl-0px md:mt-0 sm:mt-14 mt-5  ">
-                        <h1 className='text-[#ed7fb2] text-[2rem] font-sans mb-4 font-bold'>May 2017</h1>
-                        <p className='font-normal font-poppins leading-[1.90rem] text-sm'>
+                        <h1 className='text-[#ed7fb2] text-[2rem]  mb-4 font-bold'>May 2017</h1>
+                        <p className='font-normal font-poppins leading-[1.90rem] text-lg'>
                             Ut enim mi, mattis at sollicitudin rhoncus, rhoncus eget sem. Curabitur aliquam tellus eu nisl suscipit,
                             at vestibulum ex rutrum. Nulla facilisi. Cras ullamcorper pellentesque orci, nec vestibulum nibh.uspendisse</p>
                     </div>

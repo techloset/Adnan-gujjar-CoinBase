@@ -21,7 +21,7 @@ function About() {
                         Great service,
                         Professional support
                     </p>
-                    <p className="text-lg font-normal font-Poppins  text-white mt-[21px] mb-[1.9rem]">
+                    <p className="text-lg font-normal font-Poppins  text-white mt-[21px] mb-[1.9rem] ">
                         CoinBase is a platform for trading your bitcoin and
                         giftcard at the best rate, why not give us a trial.
                     </p>
@@ -39,7 +39,7 @@ function About() {
                 </div>
                 <p className='font-poppins font-normal  text-sm text-center'>Ramon Ridwan • CEO CoinBase</p>
             </div>
-            <div className='lg:mx-0 mx-6'>
+            <div className='xl:mx-0 mx-6'>
                 <div className="border-fuchsia-400 w-full max-w-[66rem] mx-auto mt-[4.1rem] mb-[6.7rem] py-9  px-4 border-2  rounded-3xl">
                     <div className="w-full max-w-lg mx-auto ">
                         <div className='flex justify-center'>

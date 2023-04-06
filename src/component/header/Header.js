@@ -28,7 +28,7 @@ function Header() {
 
   return (
     <div>
-      <div className="flex justify-between items-center h-[7.5rem] xl:pl-[6.6rem]  xl:pr-[5.5rem]  pl-6 pr-6">
+      <div className="flex justify-between items-center h-[8.4rem] xl:pl-[6.6rem]  xl:pr-[5.5rem]  pl-6 pr-6">
         <Link to='/'><div className=" flex items-end gap-2 cursor-pointer">
           <Logo />
         </div>
@@ -66,10 +66,10 @@ function Header() {
                 />
               </svg>
             </div>
-            <div className={`ml-[10rem] mt-[2.75rem] absolute ${open ? 'block' : 'hidden'}`}>
+            <div className={`ml-[9.5rem] mt-[3.8rem] absolute ${open ? 'block' : 'hidden'}`}>
               <img src={triangle} alt='arrow' />
             </div>
-            <div id="dropdownOffset" class={`z-10 mt-36 ml-36 border-[1px] border-[#E0E0E0] absolute  opacity-80 bg-white divide-y divide-gray-100 rounded-lg shadow w-36 dark:bg-white-700  ${open ? 'block' : 'hidden'}   `}>
+            <div id="dropdownOffset" class={`z-10 mt-40 ml-32 border-[1px] border-[#E0E0E0] absolute  opacity-80 bg-white divide-y divide-gray-100 rounded-lg shadow w-36 dark:bg-white-700  ${open ? 'block' : 'hidden'}   `}>
 
               <ul className=" text-sm  text-black dark:text-gray-200" aria-labelledby="dropdownDefault">
                 <li>

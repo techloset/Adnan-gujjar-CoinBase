@@ -32,10 +32,10 @@ function Blog() {
                 </div>
                 <div className='flex flex-row justify-center items-center gap-3 mt-[7.2rem] mb-[9.1rem]  h-full'>
                     <button className='rounded-full text-lg  w-14 h-14' style={{ background: 'linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%)' }}>01</button>
-                    <button className='rounded-full w-[3.80rem] h-[3.80rem] text-lg bg-white shadow-lg border border-gray-300'>02</button>
-                    <button className='rounded-full w-[3.80rem] h-[3.80rem] text-lg bg-white shadow-lg border border-gray-300'>03</button>
-                    <button className='rounded-full w-[3.80rem] h-[3.80rem] text-lg bg-white shadow-lg border border-gray-300'>…</button>
-                    <button className='rounded-full w-[6.3rem] h-[3.80rem] text-lg bg-white shadow-lg border border-gray-300'>Next</button>
+                    <button className='rounded-full w-[3.80rem] h-[3.80rem] text-lg bg-white  border border-gray-300'>02</button>
+                    <button className='rounded-full w-[3.80rem] h-[3.80rem] text-lg bg-white  border border-gray-300'>03</button>
+                    <button className='rounded-full w-[3.80rem] h-[3.80rem] text-lg bg-white  border border-gray-300'>…</button>
+                    <button className='rounded-full w-[6.3rem] h-[3.80rem] text-lg bg-white  border border-gray-300'>Next</button>
                 </div>
             </div>
         </div>

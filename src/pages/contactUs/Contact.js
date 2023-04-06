@@ -23,7 +23,7 @@ function Contact() {
             <p className="text-[2.5rem] font-bold font-sans text-white">
               24/7 Customer support Including weekends.
             </p>
-            <p className="text-lg font-normal font-Poppins  text-white mt-[21px] mb-[1.9rem]">
+            <p className="text-lg font-normal font-Poppins  text-white mt-[21px] mb-[1.9rem] max-w-[441px]">
               We’re always there ti help regardless the number of queries at hand.
             </p>
           </div>
@@ -60,7 +60,7 @@ function Contact() {
             </div>
           </div>
           <div className="w-full  max-w-[45.80rem] mx-auto h-[25rem]">
-            <div className="h-96 mx-4 flex items-center justify-center " style={{ backgroundImage: `url(${map})` }}>
+            <div className="h-96  sm:mx:4 mx:0 flex items-center justify-center " style={{ backgroundImage: `url(${map})` }}>
               <div className="w-full max-w-[20.80rem] bg-white rounded-2xl pt-12 pb-[3.25rem] mx-2 px-4">
                 <div className=" flex gap-4">
                   <img src={pin} alt="pin" />

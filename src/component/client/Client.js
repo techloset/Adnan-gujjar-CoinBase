@@ -9,12 +9,12 @@ import wave1 from '../../assets/svg-icon/wave-3.svg'
 const Client = () => {
     return (
         <div>
-            <div className='bg-cover bg-no-repeat flex flex-col justify-center items-center'
+            <div className='bg-cover bg-no-repeat flex flex-col justify-center items-center lg:mt-0 mt-10'
                 style={{ backgroundImage: `url(${ourClients})` }}>
 
                 <img className='w-full' src={wave} alt='wave' />
 
-                <div className=" w-full max-w-xl mx-auto text-white mt-0 md:mt-[7.7rem] px-6">
+                <div className=" w-full max-w-xl mx-auto text-white mt-8 md:mt-[7.7rem] px-6">
                     <h1 class="text-3xl text-center font-medium font-poppins ">10,000 Satisfied clients
                         <br /> around the world</h1>
                     <div className='flex justify-center mt-7'>

@@ -10,7 +10,7 @@ const Footer = () => {
     <div className='bg-gray-900 pb-8'>
       <div className='w-full max-w-[1500px] mx-auto'>
         <footer className="text-white body-font bg-gray-900 flex items-center " >
-          <div className="flex flex-1 pt-[4.3rem] flex-wrap max-w-[90rem] lg:pl-20  md:pl-10  pl-6 pr-6 md:pr-10 lg:pr-[3.2rem]  md:flex-nowrap">
+          <div className="flex flex-1 pt-[4.3rem] flex-wrap max-w-[90rem] lg:pl-20  md:pl-10  pl-6 pr-6 md:pr-6 lg:pr-[3.2rem]  md:flex-nowrap">
             <div className="">
               <a className="cursor-pointer">
                 <Logo />
