@@ -101,7 +101,9 @@ function States() {
           </div>
         </div>
 
-        <img src={shape2} alt="shap" />
+        <div className="w-full">
+          <img src={shape2} alt="shap" />
+        </div>
       </div>
 
     </>

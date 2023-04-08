@@ -66,17 +66,17 @@ function Header() {
                 />
               </svg>
             </div>
-            <div className={`ml-[9.5rem] mt-[3.8rem] absolute ${open ? 'block' : 'hidden'}`}>
+            <div className={`ml-[9.5rem] mt-[3.4rem] absolute ${open ? 'block' : 'hidden'}`}>
               <img src={triangle} alt='arrow' />
             </div>
-            <div id="dropdownOffset" class={`z-10 mt-40 ml-32 border-[1px] border-[#E0E0E0] absolute  opacity-80 bg-white divide-y divide-gray-100 rounded-lg shadow w-36 dark:bg-white-700  ${open ? 'block' : 'hidden'}   `}>
+            <div id="dropdownOffset" class={`z-10 mt-[8.1rem] ml-[8.7rem] border-[1px] border-[#E0E0E0] absolute  opacity-80 bg-white divide-y divide-gray-100 rounded-lg shadow w-36 dark:bg-white-700  ${open ? 'block' : 'hidden'}   `}>
 
               <ul className=" text-sm  text-black dark:text-gray-200" aria-labelledby="dropdownDefault">
                 <li>
-                  <a href="#" className="block px-4 py-3 text-[#333333] text-xs ">Sell Bitcoin</a>
+                  <a href="#" className="block pl-3 py-2 text-[#333333] text-xs leading-[1.1rem] ">Sell Bitcoin</a>
                 </li>
                 <li>
-                  <a href="#" className="block pl-4 py-3  font-normal text-sm text-[#FFFFFF] text-[12px] rounded-bl-lg rounded-br-lg  " style={{ background: 'linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%)' }}>Sell Giftcard</a>
+                  <a href="#" className="block pl-3 py-[0.40rem]  font-normal text-xs text-[#FFFFFF] text-[12px] rounded-br-lg rounded-bl-lg   " style={{ background: 'linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%)' }}>Sell Giftcard</a>
                 </li>
               </ul>
             </div>

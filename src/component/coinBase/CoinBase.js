@@ -15,7 +15,7 @@ function CoinBase() {
             Welcome to CoinBase
           </h1>
           <div className="w-10 h-1 bg-pink-500 rounded-lg mt"></div>
-          <p className="font-normal text-justify text-base leading-10 my-9">
+          <p className="font-normal text-base leading-10 my-9">
             We have the best rates . Simply start your exchange right now. Sign
             up for our Affiliate program and earn commission from each exchange.
             The earnings are credited in your account instantly and can be

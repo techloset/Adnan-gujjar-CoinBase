@@ -38,7 +38,7 @@ function Meet() {
             <p className='font-normal font-poppins text-base leading-10 text-center mt-9 '>Subscribe to our newsletter for daily/weekly <br />update of our products and services.</p>
             <div className='flex justify-center flex-wrap sm:flex-nowrap  gap-2 w-full max-w-2xl mx-auto mt-6'>
                 <input className='rounded-full  focus:bg-transparent border border-fuchsia-800 py-4 pl-4 w-full lg:w-[24.3rem]  ' type='email' placeholder='EMAIL' />
-                <div className='flex justify-center'>
+                <div className='flex justify-center sm:mt-0 mt-6'>
                     <Button text='DISCOVER' />
                 </div>
             </div>

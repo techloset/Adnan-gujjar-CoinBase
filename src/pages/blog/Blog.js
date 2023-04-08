@@ -12,7 +12,7 @@ function Blog() {
                 <div className="text-center mx-6 m-8 lg:text-start lg:ml-[8rem] xl:ml-[11.4rem] lg:max-w-[412px] max-w-none  ">
                     <h2 className=' font-poppins font-normal text-xs text-white mb-4'>HOME/BLOG</h2>
 
-                    <p className="xl:text-[2.5rem] text-3xl leading-[3.7rem] font-bold font-sans text-white">
+                    <p className="xl:text-[2.5rem] text-3xl leading-[3.7rem] font-bold  text-white">
                         Stay updated,
                         Never miss a post.
                     </p>

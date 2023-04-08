@@ -20,10 +20,10 @@ function Contact() {
       <div className=" pb-[5.4rem]">
         <MainComponent img={img}>
           <div className="text-center mx-6 lg:text-start lg:ml-[8rem] xl:ml-[11.4rem]">
-            <p className="text-[2.5rem] font-bold font-sans text-white">
+            <p className="xl:text-[2.5rem] text-[1.9rem] font-bold text-white">
               24/7 Customer support Including weekends.
             </p>
-            <p className="text-lg font-normal font-Poppins  text-white mt-[21px] mb-[1.9rem] max-w-[441px]">
+            <p className="text-lg font-normal font-Poppins  text-white mt-[21px] mb-[1.9rem] lg:mx-0 mx-auto  max-w-[441px]">
               We’re always there ti help regardless the number of queries at hand.
             </p>
           </div>

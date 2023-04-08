@@ -21,7 +21,7 @@ function LandingPage() {
               Bitcoin/ GiftCard for money
             </span>
           </p>
-          <p className="text-lg font-normal font-Poppins  text-white mt-[21px] mb-[1.9rem]">
+          <p className="text-lg font-normal font-Poppins  text-white mt-[21px] mb-[1.9rem] max-w-[460px] mx-auto lg:mx-0 ">
             CoinBase is a platform for trading your bitcoin and giftcard at the
             best rate, why not give us a trial.
           </p>
