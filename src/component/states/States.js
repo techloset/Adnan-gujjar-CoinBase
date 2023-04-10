@@ -15,7 +15,7 @@ function States() {
   return (
     <>
       <div className="bg-gradient-to-b  from-pink-500 via to-indigo-900 flex flex-col  justify-center overflow-hidden">
-        <img className="-mt-9" src={shape} alt="shap" />
+        <img className="" src={shape} alt="shap" />
         <div className="mx-5">
           <div className="w-full max-w-5xl mx-auto">
             <div className='shadow-xl rounded-[30px] mt-[3.3rem] mb-[2.2rem] pb-14 px-4 bg-white '>

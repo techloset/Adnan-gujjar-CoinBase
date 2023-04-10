@@ -36,11 +36,12 @@ function Meet() {
                 </div>
             </div>
             <p className='font-normal font-poppins text-base leading-10 text-center mt-9 '>Subscribe to our newsletter for daily/weekly <br />update of our products and services.</p>
-            <div className='flex justify-center flex-wrap sm:flex-nowrap  gap-2 w-full max-w-2xl mx-auto mt-6'>
-                <input className='rounded-full  focus:bg-transparent border border-fuchsia-800 py-4 pl-4 w-full lg:w-[24.3rem]  ' type='email' placeholder='EMAIL' />
-                <div className='flex justify-center sm:mt-0 mt-6'>
-                    <Button text='DISCOVER' />
+            <div className=" w-full md:flex-row  flex  flex-col justify-center mt-11 items-center  gap-4 mb-6">
+                <div className=' sm:w-96 w-[90%]  h-[56px] flex justify-center rounded-full p-[1px]'
+                    style={{ background: `linear-gradient(180deg, #FD749B -12.41%, #281AC8 88.56%)` }}>
+                    <input type="text" placeholder='Email' className='w-full  h-full text-black rounded-full font-normal text-sm py-1 px-3' />
                 </div>
+                <Button text='DISCOVER' />
             </div>
 
         </div>

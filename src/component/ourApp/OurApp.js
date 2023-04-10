@@ -26,11 +26,14 @@ function OurApp() {
                           text-transparent bg-clip-text">Subscribe our newsletter
                     </h1>
                     <div className='flex justify-center mt-7'>
-                        <div className='bg-red-500 w-12 h-1 rounded-md'></div>
+                        <div className='bg-pink-500 w-12 h-1 rounded-md'></div>
                     </div>
                     <p className="mt-4 text-base md:w-[60%] font-normal text-black  leading-10">Subscribe to our newsletter for daily/weekly update of our products and services.</p>
-                    <div className="sm:flex sm:flex-row gap-4 w-full sm:justify-center mt-11 sm:items-center flex flex-col justify-center items-center mb-6 sm:mb-0">
-                        <input type="text" id="hero-field" placeholder='EMAIL' name="hero-field" class="sm:w-[60%] w-[90%] h-14 text-black bg-gray-100 bg-opacity-50 rounded-full  focus:bg-transparent border border-fuchsia-800    outline-none font-normal text-sm py-1 px-3 transition-colors duration-200 ease-in-out" />
+                    <div className=" w-full md:flex-row  flex  flex-col justify-center mt-11 items-center  gap-4 mb-6">
+                        <div className='sm:w-96 w-[90%] h-[56px] flex justify-center rounded-full p-[1px]'
+                            style={{ background: `linear-gradient(180deg, #FD749B -12.41%, #281AC8 88.56%)` }}>
+                            <input type="text" placeholder='Email' className='w-full  h-full text-black rounded-full font-normal text-sm py-1 px-3' />
+                        </div>
                         <Button text='DISCOVER' />
                     </div>
                 </div>
