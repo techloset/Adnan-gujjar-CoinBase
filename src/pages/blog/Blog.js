@@ -22,7 +22,7 @@ function Blog() {
                     </p>
                 </div>
             </MainComponent>
-            <div className='px-5'>
+            <div className='px-5 mt-20'>
                 <div className='w-full max-w-[73rem] mx-auto'>
                     {
                         data.map((items) => {

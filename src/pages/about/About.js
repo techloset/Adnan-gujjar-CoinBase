@@ -48,7 +48,7 @@ function About() {
                         <div className="">
                             <h1 className="font-poppins font-bold text-[1.75rem]
                   bg-gradient-to-b from-[#C35B95] to-[#B254AB]
-                   text-transparent bg-clip-text text-center mt-8">About CoinBase</h1>
+                  text-transparent bg-clip-text text-center mt-8">About CoinBase</h1>
                             <div className='flex justify-center mb-9 '>
                                 <div className='bg-pink-500 w-12 h-2 rounded-lg'>
                                 </div>

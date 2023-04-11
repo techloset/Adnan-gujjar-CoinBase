@@ -51,8 +51,8 @@ function Contact() {
                 id="w3review"
                 name="w3review"
                 rows="8"
+                placeholder="   Your Comment"
               >
-                Your Comment
               </textarea>
               <div className=" flex justify-start mt-[3.1rem] mb-[5.85rem]">
                 <Button text="PUBLISHD" />

@@ -4,8 +4,9 @@ import Button from '../button/Button'
 function Meet() {
     return (
         <div className=' pb-[5.75rem] px-6'>
-            <h1 className='text-center font-poppins font-bold text-[1.75rem] leading-[4rem]'>Meet the team</h1>
-            <div className='flex justify-center mb-9 '>
+            <h1 className='text-center font-poppins font-bold bg-gradient-to-b from-[#D664A4] to-[#B856A9]
+           text-transparent bg-clip-text text-[1.75rem] leading-[4rem]'>Meet the team</h1>
+            <div className='flex justify-center mb-9'>
                 <div className='bg-pink-500 w-12 h-2 rounded-lg'>
                 </div>
             </div>

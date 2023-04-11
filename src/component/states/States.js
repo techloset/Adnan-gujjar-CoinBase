@@ -102,7 +102,7 @@ function States() {
         </div>
 
         <div className="w-full">
-          <img src={shape2} alt="shap" />
+          <img className="w-full" src={shape2} alt="shap" />
         </div>
       </div>
 
