@@ -10,7 +10,7 @@ import Button from '../button/Button'
 function OurApp() {
     return (
         <div>
-            <div className='bg-gradient-to-b from-pink-500 via to-indigo-900 relative h-[600px] w-[100%]'>
+            <div className='bg-gradient-to-b from-pink-500 via to-indigo-900 relative h-[00px] w-[100%]'>
                 <img className="w-full" src={wave} alt='wave' />
                 <div className='sm:w-60 sm:h-[50%] xl:top-[46%] top-[40%] h-[50%] w-[30%] right-[52%]  absolute'>
                     <img src={device} alt="Image 1" />
