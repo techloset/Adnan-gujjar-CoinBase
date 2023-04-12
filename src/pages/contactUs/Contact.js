@@ -59,8 +59,8 @@ function Contact() {
               </div>
             </div>
           </div>
-          <div className="w-full  max-w-[45.80rem] mx-auto h-[25rem]">
-            <div className="h-96  sm:mx:4 mx:0 flex items-center justify-center " style={{ backgroundImage: `url(${map})` }}>
+          <div className="mx-6 max-w-[45.80rem] sm:mx-auto h-[25rem]">
+            <div className="h-96  sm:mx:4 mx:0 flex items-center justify-center bg-cover " style={{ backgroundImage: `url(${map})` }}>
               <div className="w-full max-w-[20.80rem] bg-white rounded-2xl pt-12 pb-[3.25rem] mx-2 px-4">
                 <div className=" flex gap-4">
                   <img src={pin} alt="pin" />

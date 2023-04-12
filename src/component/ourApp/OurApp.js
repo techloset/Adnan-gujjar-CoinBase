@@ -10,17 +10,17 @@ import Button from '../button/Button'
 function OurApp() {
     return (
         <div>
-            <div className='bg-gradient-to-b from-pink-500 via to-indigo-900 relative h-[00px] w-[100%]'>
+            <div className='bg-gradient-to-b from-pink-500 via to-indigo-900 relative  h-[300px] md:h-[500px] w-[100%]'>
                 <img className="w-full" src={wave} alt='wave' />
-                <div className='sm:w-60 sm:h-[50%] xl:top-[46%] top-[40%] h-[50%] w-[30%] right-[52%]  absolute'>
+                <div className='md:w-60 sm:h-[50%] xl:top-[35%] md:top-[25%] top-[40%] h-[30%] w-[20%] right-[52%]  absolute'>
                     <img src={device} alt="Image 1" />
                 </div>
-                <div className='sm:w-60 sm:h-[50%] xl:top-[46%] top-[40%]  h-[50%] w-[30%] left-[52%] absolute'>
+                <div className='md:w-60 sm:h-[50%] xl:top-[35%] md:top-[25%] top-[40%]  h-[30%] w-[20%] left-[52%] absolute'>
                     <img src={device1} alt="Image 1" />
                 </div>
             </div>
             <div className="flex justify-center  items-center"  >
-                <div className="flex flex-col justify-evenly items-center text-center  max-w-7xl  pt-10 sm:pt-[10rem]  xl:pt-[16rem] sm:pb-20 sm:px-10 px-6">
+                <div className="flex flex-col justify-evenly items-center text-center  max-w-7xl  pt-[5rem] sm:pt-[10rem]  xl:pt-[16rem] sm:pb-20 sm:px-10 px-6">
                     <h1 className="font-poppins font-bold sm:text-[1.75rem] text-lg
                           leading-14 bg-gradient-to-b from-[#C35B95] to-[#B254AB]
                           text-transparent bg-clip-text">Subscribe our newsletter

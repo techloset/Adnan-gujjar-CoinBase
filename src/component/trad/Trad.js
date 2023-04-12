@@ -6,7 +6,7 @@ import bgimage from '../../assets/bgimage-3.webp'
 function Trad() {
     return (
 
-        <div className='bg-center mt-3 sm:mt-16 flex justify-center items-center '
+        <div className='bg-center mt-16 flex justify-center items-center '
         style={{ height: '550px',  backgroundImage: `url(${bgimage})`, backgroundSize: "cover" }}>
             <div className=' bg-white  sm:mt-32 lg:w-[980px] lg:h-[504px] md:w-[700px] md:h-[450px]  sm:w-[500px] sm:h-[350px] w-[300px] h-[370px] shadow-lg rounded-2xl  '>
                 <div className='flex text-center justify-center mt-10'>

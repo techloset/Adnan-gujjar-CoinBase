@@ -28,7 +28,7 @@ function About() {
                 </div>
             </MainComponent>
             <div>
-                <p className='bg-gradient-to-b w-full leading-10  max-w-lg mx-auto from-[#FD749B] to-[#281AC8] text-transparent 
+                <p className='bg-gradient-to-b leading-10 mt-6 mx-5 sm:max-w-lg sm:mx-auto from-[#FD749B] to-[#281AC8] text-transparent 
         bg-clip-text cursor-pointer font-bold text-lg text-center'
                 >
                     “Morbi sagittis ultricies ex, a tempus lorem suscipit non.
